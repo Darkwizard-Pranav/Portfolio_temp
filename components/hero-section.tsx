@@ -88,6 +88,15 @@ export function HeroSection() {
             >
               Get In Touch
             </Link>
+            <Link
+              href="/Resume_101.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-8 py-4 border border-border text-foreground font-semibold rounded-full hover:border-primary hover:text-primary transition-colors"
+              data-cursor-hover
+            >
+              View Resume
+            </Link>
           </motion.div>
 
           {/* Social Links */}
